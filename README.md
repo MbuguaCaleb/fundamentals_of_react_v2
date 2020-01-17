@@ -38,3 +38,39 @@ This is how you name style classes in react.
 
 
 ```
+
+```
+Props come in handy when you want to add data to components dynamically.
+
+Therefore data may ideally fetched from an api then you map it to a component props which shall then later be rendered.
+```
+
+```
+Destructuring syntax for props
+
+
+function Tweet(props) {
+  return (
+    <div className='tweet'>
+      <h3>{props.name}</h3>
+      <p>{props.message}</p>
+      <h3>Number of likes</h3>
+    </div>
+  );
+}
+
+Once you pass a prop to a component you may destructure to make your code simpler as in ES6.
+
+After destruturing it becomes:
+
+function Tweet({ name, message }) {
+  return (
+    <div className='tweet'>
+      <h3>{name}</h3>
+      <p>{message}</p>
+      <h3>Number of likes</h3>
+    </div>
+  );
+}
+
+```
