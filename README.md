@@ -74,3 +74,32 @@ function Tweet({ name, message }) {
 }
 
 ```
+
+```
+State in react is basically some data.Whereby based on that data your app renders itself.
+State is data.
+
+React is more cleaner than vanilla JS.
+
+SetState reactfunction is very important.
+
+You esentailly fetch data from an external api then map it to your state.
+
+```
+
+
+```
+Summary of react is using state and components to create some very good things
+
+```
+
+```
+Notes by MbuguaCaleb
+
+```
+
+
+```
+Tutor-Dev Ed
+
+```

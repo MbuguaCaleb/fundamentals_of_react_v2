@@ -17,3 +17,8 @@
   align-items: center;
   border: 2px solid black;
 }
+
+.red {
+  color: red;
+  font-size: 50px;
+}
